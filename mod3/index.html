@@ -2,23 +2,22 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Module 3 Coding Assignment</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Module 3 by EJ M.</title>
   <!--css-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-  <!--fontawesome-->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <!--style-->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
 
 </head>
 
 <body>
     <!--navbar-->
-  <nav id="top" class="navbar navbar-expand-md navbar-dark bg-dark">
+  <nav id="top" class="navbar navbar-expand-md navbar-dark bg-info">
       <a class="navbar-brand font-weight-bold" href="#">Lilo and Stitch, Inc.</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -42,7 +41,7 @@
     </nav>
     <!--end navbar-->
   <header>
-    <h1 class="text-capitalize text-center p-4 font-weight-bold">Our Menú</h1>
+    <h1 class="text-capitalize text-center p-4 font-weight-bold">Our Menu</h1>
   </header>
   <!--text container section-->
   <section class="container-fluid">
@@ -50,13 +49,13 @@
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 p-2">
         <!--chicken text-->
         <div id="chicken" class="bg-dark p-5 text-light">
-          <h2 class="font-weight-bold text-center bg-dark">Chiken</h2>
+          <h2 class="font-weight-bold text-center bg-dark">Chicken</h2>
           <p class="text-justify bg-dark p-2 font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p class="text-justify bg-dark p-2 font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <a href="#top">Back to top</a>
         </div>
       </div>
-      <!--end chiken text-->
+      <!--end chicken text-->
       <!--beef text-->
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 p-2">
         <div id="beef" class="bg-dark p-5 text-light">
@@ -80,6 +79,11 @@
     </div>
   </section>
   <!--end section container-->
+
+  <!-- browsersync -->
+  <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.27.10'><\/script>".replace("HOST", location.hostname));
+//]]></script>
 
   <!--bootstrap js-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
